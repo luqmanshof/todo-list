@@ -1,4 +1,4 @@
-# Project Title
+# Todo List
 
 A simple project which helps to keep track of your todo lists/ records
 
