@@ -1,6 +1,6 @@
 # Todo List
 
-A simple project which helps to keep track of your todo lists/ records
+A simple project that helps to keep track of your todo lists/ records.
 
 ---
 ## Requirements
@@ -13,16 +13,6 @@ You will also need to install all depencies in package.json
 
   Just go on [official Node.js website](https://nodejs.org/) and download the installer.
 Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
-
-- #### Node installation on Ubuntu
-
-  You can install nodejs and npm easily with apt install, just run the following commands.
-
-      $ sudo apt install nodejs
-      $ sudo apt install npm
-
-- #### Other Operating Systems
-  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
 
 If the installation was successful, you should be able to run the following command.
 
@@ -37,9 +27,18 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm install npm -g
 
 
-## Project Install
+## Project Installation 
 
-    $ git clone https://github.com/luqmanshof/todo-records
-    $ cd PROJECT_TITLE
+    $ git clone https://github.com/luqmanshof/todo-list
+    $ cd todo-list
     $ npm install
+
+### Application usage and operation
+    https://todo-records.herokuapp.com/
+
+    To create a new todo lists, add the title to the url e.g
+    https://todo-records.herokuapp.com/NewList
+
+    Hit the + button to add a new item.
+    Hit the checkbox to delete an item.
 
